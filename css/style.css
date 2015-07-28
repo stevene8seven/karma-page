@@ -43,11 +43,6 @@ nav, li, ul, img, div{
     padding: 0;
     border: 0;
     font:inherit;
-    /*font-size: 100%;
-    font-family:inherit;
-    font-size: 100%;
-    font-style:inherit;
-    font-variant:inherit;*/
     vertical-align: baseline;
     box-sizing: border-box;
 }
@@ -79,6 +74,15 @@ nav, li, ul, img, div{
 .top-nav-bar .links li{
     display: inline-block;
     margin-left: 1.563rem;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px; 
+    color: #838994; 
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+a:hover { 
+    background-color: yellow;
 }
 ul{
   list-style: none;
