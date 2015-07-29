@@ -69,9 +69,11 @@ nav, li, ul, img, div{
 .top-navigation .links li.active {
     color: #4c5058;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .top-nav-bar .links li{
+
     display: inline-block;
     margin-left: 1.563rem;
     font-family: 'Roboto', sans-serif; 
@@ -79,11 +81,10 @@ nav, li, ul, img, div{
     color: #838994; 
     letter-spacing: 0.03em;
     cursor: pointer;
+
 }
 
-a:hover { 
-    background-color: yellow;
-}
+
 ul{
   list-style: none;
 
@@ -100,6 +101,7 @@ ul{
   font-weight: 700;
   color: #4C5058;
   text-shadow: .5px .5px black;
+  
 }
 
 
