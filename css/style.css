@@ -1,4 +1,9 @@
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
     background-color:lightblue;
@@ -15,7 +20,18 @@ div {
   width: 100%;
   border-bottom: 1px solid #DDD;
   z-index: 9999;
+  animation: pulse 5s infinite;
 }
+
+    @keyframes pulse {
+      0% {
+        background-color:#FF4136 ;
+      }
+      100% {
+        background-color: #001F3F;
+      }
+    }
+
 
 nav{
   display:block;
@@ -47,6 +63,7 @@ nav, li, ul, img, div{
   color: #838994;
   font-size: 1.04rem;
   margin-top: 1.7rem;
+  -webkit-font-smoothing: antialiased;
 }
 
 .top-navigation .links li.active {
@@ -62,7 +79,7 @@ nav, li, ul, img, div{
     font-size: 16px; 
     color: #838994; 
     letter-spacing: 0.03em;
-    cursor: pointer;
+    
 
 }
 
@@ -81,17 +98,18 @@ ul{
 
 .active a{
   font-weight: 700;
-  text-shadow: .5px .5px #4C5058;
+  text-shadow: .5px .5px black;
   
 }
 
 .links a{
   text-decoration: none;
-  color: black;
+  color: antiquewhite;
   font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 
 }
 
 .links a:hover{
-  color: blue;
+  color: greenyellow;
 }
