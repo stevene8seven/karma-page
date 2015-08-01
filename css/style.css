@@ -22,13 +22,13 @@ div {
   z-index: 9999;
   animation: pulse 5s infinite;
 }
-
+/*#FF4136*/
     @keyframes pulse {
       0% {
-        background-color:#FF4136 ;
+        background-color:#EFDFE3 ;
       }
       100% {
-        background-color: #001F3F;
+        background-color:#161C33;
       }
     }
 
@@ -98,7 +98,6 @@ ul{
 
 .active a{
   font-weight: 700;
-  text-shadow: .5px .5px black;
   
 }
 
@@ -107,9 +106,68 @@ ul{
   color: antiquewhite;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
+  text-shadow: .5px .5px black;
 
 }
 
 .links a:hover{
-  color: greenyellow;
+  color: #BC2430;
 }
+
+.introduction{
+    background-image: url('http://i1166.photobucket.com/albums/q607/boombizzle/karmamt.jpeg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+
+.intro-content{
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+
+}
+
+.introduction h1{
+  font-size: 3.125rem;
+  margin-top: 15rem;
+
+}
+
+.introduction h3{
+  font-size: 2rem;
+  margin-top: 1.75rem;
+
+}
+
+.introduction h1, .introduction h3{
+  font-weight: 400;
+  color: #2D2430;
+  text-align: center;
+  text-shadow: 1px 1px 1px whitesmoke;
+}
+
+.big-button{
+    text-align: center;
+    margin-top: 1.563rem;
+    line-height: 1;
+   margin:0 auto;
+   text-align: center;
+    cursor:pointer;
+    color: #FFFFFF;
+    /*why doesn't this (color attribute) work under the button element?*/
+}
+
+button{
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    font-size: 1.125rem;
+    
