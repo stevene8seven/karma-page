@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color:lightblue;
+    background-color:#C6C8DC;
 }
 
 div {
@@ -22,7 +22,7 @@ div {
   z-index: 9999;
   animation: pulse 5s infinite;
 }
-/*#FF4136*/
+
     @keyframes pulse {
       0% {
         background-color:#EFDFE3 ;
@@ -33,11 +33,16 @@ div {
     }
 
 
-nav{
+nav , section{
   display:block;
+  vertical-align: baseline;
+  box-sizing: border-box;
 }
 
-nav, li, ul, img, div{
+
+/*INHERITER*/
+
+nav, li, ul, img, div, section{
     margin: 0;
     padding: 0;
     border: 0;
@@ -49,13 +54,13 @@ nav, li, ul, img, div{
 .top-nav-bar .content{
     width: 970px;
     height: 70px;
-    margin: 0 auto;
 }
 
 .content{
     padding: 0 5rem;
     margin: 0 auto;
     min-width: 37.5rem;
+    width: 46rem;
 }
 
 .top-nav-bar .links{
@@ -171,3 +176,56 @@ button{
     padding: 1rem 1.5rem;
     font-size: 1.125rem;
     }
+
+.cases{
+    overflow: hidden;
+    padding-bottom: 5rem;
+  }
+
+  .cases .content{
+    margin-top: 7.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+  }
+
+  .cases h2{
+      font-size: 2.75rem;
+      margin: 1.625rem 0 3.125rem;
+      font-weight: 300;
+  }
+
+  .devices{
+      margin: 0;
+      padding: 0; 
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+      box-sizing: border-box;
+  }
+  ol, ul{
+    list-style: none;
+  }
+
+
+  .cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+  
+  .cases h2{
+    width: 706px;
+    height: 44px;
+  }
+
+  .cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
+  
+
