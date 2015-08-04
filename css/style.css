@@ -42,10 +42,11 @@ nav , section{
 
 /*INHERITER*/
 
-nav, li, ul, img, div, section{
+nav, li, ul, img, div, section, h5{
     margin: 0;
     padding: 0;
     border: 0;
+    font-size: 100%;
     font:inherit;
     vertical-align: baseline;
     box-sizing: border-box;
@@ -56,11 +57,12 @@ nav, li, ul, img, div, section{
     height: 70px;
 }
 
+/*center all my content*/
 .content{
-    padding: 0 5rem;
+    padding: 0 0.938rem;
     margin: 0 auto;
-    min-width: 37.5rem;
-    width: 46rem;
+    width: 85rem;
+    overflow: hidden;
 }
 
 .top-nav-bar .links{
@@ -91,14 +93,7 @@ nav, li, ul, img, div, section{
 
 ul{
   list-style: none;
-
   display: block;
-    list-style-type: disc;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
 }
 
 .active a{
@@ -125,16 +120,9 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
-    overflow: auto;
+    overflow: hidden;
 }
 
-
-.intro-content{
-    padding: 0 0.938rem;
-    margin: 0 auto;
-    min-width: 37.5rem;
-
-}
 
 .introduction h1{
   font-size: 3.125rem;
@@ -189,43 +177,60 @@ button{
     text-align: center;
   }
 
-  .cases h2{
-      font-size: 2.75rem;
-      margin: 1.625rem 0 3.125rem;
-      font-weight: 300;
-  }
+  
 
   .devices{
-      margin: 0;
+      margin: 2.5em;
       padding: 0; 
       border: 0;
       font-size: 100%;
       font: inherit;
       vertical-align: baseline;
       box-sizing: border-box;
-  }
-  ol, ul{
-    list-style: none;
+      display: inline-block;
+      width: 20.3333333%;
   }
 
+ 
 
   .cases .devices h3 {
     font-weight: 400;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
   
-  .cases h2{
-    width: 706px;
-    height: 44px;
+  
+.cases h2{
+      font-size: 2.75rem;
+      margin: 1.625rem 0 3.125rem;
+      font-weight: 300;
   }
-
-  .cases .devices {
-    width: 33.3333333%;
-    display: inline-block;
-    /* styles to assist with debugging */
-    border: 1px solid black;
-    box-sizing: border-box;
-    height: 4em;
-}
   
 
+/*why does overflow:auto ruin everything*/
+.social {
+    overflow: hidden;
+    padding-bottom: 9.375rem;
+    text-align: center;
+  }
+
+  .social hr {
+    border: 0;
+    border-top: 1px solid red;
+    margin: 1.313rem 0;
+}
+
+
+  .social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+.social .twitter {
+    color: #55acee;
+  }
