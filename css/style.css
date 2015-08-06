@@ -147,8 +147,8 @@ ul{
     text-align: center;
     margin-top: 1.563rem;
     line-height: 1;
-   margin:0 auto;
-   text-align: center;
+    margin:0 auto;
+    text-align: center;
     cursor:pointer;
     color: #FFFFFF;
     /*why doesn't this (color attribute) work under the button element?*/
@@ -171,10 +171,10 @@ button{
   }
 
   .cases .content{
-    margin-top: 7.875rem;
-    padding: none;
-    color: #1d1e21;
-    text-align: center;
+      margin-top: 7.875rem;
+      padding: 0;
+      color: #1d1e21;
+      text-align: center;
   }
 
   
@@ -194,10 +194,10 @@ button{
  
 
   .cases .devices h3 {
-    font-weight: 400;
-    font-size: 1.563rem;
-    margin: 2.5rem 0px 1.875rem;
-  
+      font-weight: 400;
+      font-size: 1.563rem;
+      margin: 2.5rem 0px 1.875rem;
+  }
   
 .cases h2{
       font-size: 2.75rem;
