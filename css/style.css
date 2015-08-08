@@ -56,9 +56,9 @@ nav, li, ul, img, div, section, h5{
    
     padding: 0 0.938rem;
     margin: 0 auto;
-    min-width: 37.5rem;
-
-   
+    margin-bottom: 1rem;
+    width: 60%;
+    overflow: hidden;
 }
 
 .content .navbar-content{
@@ -179,8 +179,7 @@ button{
   }
 
   .cases .content{
-      margin-top: 2.875rem;
-      padding: 2rem;
+      margin-top: 7.875rem;
       color: #1d1e21;
       text-align: center;
   }
@@ -194,13 +193,12 @@ button{
       font: inherit;
       vertical-align: baseline;
       box-sizing: border-box;
-      width: 90rem;
  
   }
 
   .devices li{
-      display: inline-block;
-      width: 23rem;
+      width: 33.3333333%;
+      float: left;
   }
  
 
