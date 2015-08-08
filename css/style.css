@@ -174,11 +174,12 @@ button{
 
 .cases{
     overflow: hidden;
-    padding-bottom: 5rem;
+    padding-top: .5rem;
+    padding-bottom: 2rem;
   }
 
   .cases .content{
-      margin-top: 7.875rem;
+      margin-top: 2.875rem;
       padding: 2rem;
       color: #1d1e21;
       text-align: center;
