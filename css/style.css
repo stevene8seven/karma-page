@@ -23,11 +23,12 @@ div {
   width: 100%;
   border-bottom: 1px solid #DDD;
   z-index: 9999;
-  animation: pulse 5s infinite;
 }
 
 
-
+.top-nav-bar > .content {
+    height: 4.375rem;
+}
 
 nav , section{
   display:block;
@@ -55,13 +56,13 @@ nav, li, ul, img, div, section, h5{
    
     padding: 0 0.938rem;
     margin: 0 auto;
-    margin-bottom: 1rem;
-    width: 100rem;
-    overflow: hidden;
+    min-width: 37.5rem;
+
+   
 }
 
 .content .navbar-content{
-    width:50rem;
+    width:51rem;
 }
 
 .logo{
@@ -84,7 +85,7 @@ nav, li, ul, img, div, section, h5{
 .top-nav-bar .links li{
 
     display: inline-block;
-    margin-left: 1rem;
+    margin-left: 2rem;
     font-size: 16px; 
     color: #838994; 
     letter-spacing: 0.03em;
@@ -198,7 +199,7 @@ button{
 
   .devices li{
       display: inline-block;
-      width: 23.3333333%;
+      width: 23rem;
   }
  
 
