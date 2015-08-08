@@ -14,8 +14,11 @@ div {
     display: block;
 }
 
+/*NAVIGATION BAR*/
+
 .top-nav-bar{
-  background-color: #ffffff;
+    padding-top: 1.3rem;
+  background-color: #161C33;
   position: fixed;
   width: 100%;
   border-bottom: 1px solid #DDD;
@@ -23,14 +26,7 @@ div {
   animation: pulse 5s infinite;
 }
 
-    @keyframes pulse {
-      0% {
-        background-color:#EFDFE3 ;
-      }
-      100% {
-        background-color:#161C33;
-      }
-    }
+
 
 
 nav , section{
@@ -52,24 +48,30 @@ nav, li, ul, img, div, section, h5{
     box-sizing: border-box;
 }
 
-.top-nav-bar .content{
-    width: 970px;
-    height: 70px;
-}
+
 
 /*center all my content*/
 .content{
+   
     padding: 0 0.938rem;
     margin: 0 auto;
-    width: 85rem;
+    margin-bottom: 1rem;
+    width: 100rem;
     overflow: hidden;
 }
 
+.content .navbar-content{
+    width:50rem;
+}
+
+.logo{
+    padding-top: 0.89rem;
+}
 .top-nav-bar .links{
   float: right;
   color: #838994;
   font-size: 1.04rem;
-  margin-top: 1.7rem;
+  margin-top: 1.5rem;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -82,7 +84,7 @@ nav, li, ul, img, div, section, h5{
 .top-nav-bar .links li{
 
     display: inline-block;
-    margin-left: 1.563rem;
+    margin-left: 1rem;
     font-size: 16px; 
     color: #838994; 
     letter-spacing: 0.03em;
@@ -111,8 +113,10 @@ ul{
 }
 
 .links a:hover{
-  color: #BC2430;
+  color: #f15a29;
 }
+
+/*SECTION 2 */
 
 .introduction{
     background-image: url('http://i1166.photobucket.com/albums/q607/boombizzle/karmamt.jpeg');
@@ -140,7 +144,7 @@ ul{
   font-weight: 400;
   color: #2D2430;
   text-align: center;
-  text-shadow: 1px 1px 1px whitesmoke;
+  text-shadow: 1px 1px 1px ghostwhite;
 }
 
 .big-button{
@@ -165,6 +169,8 @@ button{
     font-size: 1.125rem;
     }
 
+/*SECTION 3*/
+
 .cases{
     overflow: hidden;
     padding-bottom: 5rem;
@@ -172,25 +178,28 @@ button{
 
   .cases .content{
       margin-top: 7.875rem;
-      padding: 0;
+      padding: 2rem;
       color: #1d1e21;
       text-align: center;
   }
 
-  
 
   .devices{
-      margin: 2.5em;
+      margin: 0 auto;
       padding: 0; 
       border: 0;
       font-size: 100%;
       font: inherit;
       vertical-align: baseline;
       box-sizing: border-box;
-      display: inline-block;
-      width: 20.3333333%;
+      width: 90rem;
+ 
   }
 
+  .devices li{
+      display: inline-block;
+      width: 23.3333333%;
+  }
  
 
   .cases .devices h3 {
@@ -206,7 +215,10 @@ button{
   }
   
 
+/*FOOTER*/
+
 /*why does overflow:auto ruin everything*/
+
 .social {
     overflow: hidden;
     padding-bottom: 9.375rem;
@@ -215,7 +227,7 @@ button{
 
   .social hr {
     border: 0;
-    border-top: 1px solid red;
+    border-top: 1px solid #f15a29;
     margin: 1.313rem 0;
 }
 
@@ -229,8 +241,19 @@ button{
     border: 1px solid #eaebec;
     padding: 0.625rem 0;
     text-align: center;
+    cursor: pointer;
 }
 
 .social .twitter {
     color: #55acee;
   }
+
+  .social .facebook {
+    color: #4c66a4;
+}
+
+.social .instagram {
+    color: #3f729b;
+}
+
+
