@@ -26,11 +26,12 @@ div {
 }
 
 
-.top-nav-bar > .content {
-    height: 4.375rem;
+.content .logo{
+    margin-left: 75px;
+    height: 70px;
 }
 
-nav , section{
+nav, section{
   display:block;
   vertical-align: baseline;
   box-sizing: border-box;
@@ -61,15 +62,20 @@ nav, li, ul, img, div, section, h5{
     overflow: hidden;
 }
 
-.content .navbar-content{
-    width:51rem;
+.content .links{
+    width:60%;
 }
 
-.logo{
-    padding-top: 0.89rem;
+.top-nav-bar > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+
 }
+
+
 .top-nav-bar .links{
-  float: right;
+ float: right;
   color: #838994;
   font-size: 1.04rem;
   margin-top: 1.5rem;
@@ -123,6 +129,7 @@ ul{
     background-image: url('http://i1166.photobucket.com/albums/q607/boombizzle/karmamt.jpeg');
     background-position: center bottom;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     height: 45.938rem;
     overflow: hidden;
